@@ -14,6 +14,9 @@
 		409D01C91A1F00B500AE49EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409D01C81A1F00B500AE49EE /* Images.xcassets */; };
 		409D01CC1A1F00B500AE49EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 409D01CA1A1F00B500AE49EE /* LaunchScreen.xib */; };
 		409D01D81A1F00B500AE49EE /* learnIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 409D01D71A1F00B500AE49EE /* learnIOSTests.m */; };
+		409D01E51A1F0F4000AE49EE /* tabbar_index@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 409D01E21A1F0F4000AE49EE /* tabbar_index@2x.png */; };
+		409D01E61A1F0F4000AE49EE /* tabbar_mine@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 409D01E31A1F0F4000AE49EE /* tabbar_mine@2x.png */; };
+		409D01E71A1F0F4000AE49EE /* tabbar_noti@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 409D01E41A1F0F4000AE49EE /* tabbar_noti@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		409D01D11A1F00B500AE49EE /* learnIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = learnIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		409D01D61A1F00B500AE49EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		409D01D71A1F00B500AE49EE /* learnIOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = learnIOSTests.m; sourceTree = "<group>"; };
+		409D01E21A1F0F4000AE49EE /* tabbar_index@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_index@2x.png"; sourceTree = "<group>"; };
+		409D01E31A1F0F4000AE49EE /* tabbar_mine@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_mine@2x.png"; sourceTree = "<group>"; };
+		409D01E41A1F0F4000AE49EE /* tabbar_noti@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_noti@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		409D01BA1A1F00B500AE49EE /* learnIOS */ = {
 			isa = PBXGroup;
 			children = (
+				409D01E11A1F0F4000AE49EE /* Images */,
 				409D01BF1A1F00B500AE49EE /* AppDelegate.h */,
 				409D01C01A1F00B500AE49EE /* AppDelegate.m */,
 				409D01C21A1F00B500AE49EE /* ViewController.h */,
@@ -117,6 +124,16 @@
 				409D01D61A1F00B500AE49EE /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		409D01E11A1F0F4000AE49EE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				409D01E21A1F0F4000AE49EE /* tabbar_index@2x.png */,
+				409D01E31A1F0F4000AE49EE /* tabbar_mine@2x.png */,
+				409D01E41A1F0F4000AE49EE /* tabbar_noti@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +216,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				409D01E71A1F0F4000AE49EE /* tabbar_noti@2x.png in Resources */,
 				409D01C71A1F00B500AE49EE /* Main.storyboard in Resources */,
+				409D01E61A1F0F4000AE49EE /* tabbar_mine@2x.png in Resources */,
 				409D01CC1A1F00B500AE49EE /* LaunchScreen.xib in Resources */,
 				409D01C91A1F00B500AE49EE /* Images.xcassets in Resources */,
+				409D01E51A1F0F4000AE49EE /* tabbar_index@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +432,7 @@
 				409D01DD1A1F00B500AE49EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		409D01DE1A1F00B500AE49EE /* Build configuration list for PBXNativeTarget "learnIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +441,7 @@
 				409D01E01A1F00B500AE49EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
